@@ -1,0 +1,10 @@
+body {background-image: url(csgo-background.jpg);   
+background-size: cover;} 
+header {background-color: rgba(36, 33, 33,0.5); margin: 250px; margin-bottom: -20px; padding-bottom: 20px;
+text-align:center;}
+h1 {color: bisque;}
+li {display: inline; background-color: blueviolet; color: bisque;}
+main {background-color: rgba(36,33,33,0.5); text-align:center; margin: 250px; margin-top: 0px; color: whitesmoke;
+}
+footer {background-color: rgba(36,33,33,0.5); margin: 250px;
+     margin-top: -250px; padding-top: 200px; text-align: center;}
