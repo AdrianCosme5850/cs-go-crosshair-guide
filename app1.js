@@ -10,3 +10,15 @@ else {alert("Please enter Yes or No."); ageCheck()}}
 
  function userNameFunction(){let userName = prompt("What's your name?")
  document.write("<h1>Hello " + userName + "!</h1>")}
+ 
+ function smokeQuestion(){
+     var counter = 1
+     var userAnswer = prompt("How many smokes do you want to see?")
+     if (userAnswer > 5){
+         alert("That's too many smokes!")
+         userAnswer = prompt("How many smokes do you want to see? (Five or less.)")
+     }
+     for (var i = 0; i < userAnswer; counter++, i++){
+            document.write("<img src=smoke.jpeg><p>" + counter + "</p>")
+     }
+ }
